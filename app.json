@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad1dad4a-262b-435c-afa0-68a88d6a9a63"
+      }
+    },
+    "owner": "rudrapatel2003"
   }
 }
