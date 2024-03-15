@@ -1,5 +1,5 @@
 import { SafeAreaView, StyleSheet, View } from "react-native";
-import { Button, Text } from "react-native-paper";
+import { Button, Snackbar, Text } from "react-native-paper";
 import DropDown from "react-native-paper-dropdown";
 import { useState } from "react";
 import {
@@ -77,6 +77,18 @@ export default function ReportParkingForm() {
           Report
         </Button>
       </View>
+      <Snackbar
+        visible={showError}
+        onDismiss={() => setShowError(false)}
+        action={{
+          label: "Close",
+          onPress: () => {
+            setShowError(false);
+          },
+        }}
+      >
+        There was an error handling your request.
+      </Snackbar>
     </SafeAreaView>
   );
 }
