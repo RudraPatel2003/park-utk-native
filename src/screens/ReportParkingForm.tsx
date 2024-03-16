@@ -9,9 +9,7 @@ import {
   parkingGarages,
   ranges,
 } from "src/types/types";
-
-const REPORTS_ENDPOINT =
-  "https://park-utk-native-api-reqfnuoy4a-ue.a.run.app/reports";
+import { REPORTS_ENDPOINT } from "src/utils/constants";
 
 export default function ReportParkingForm() {
   const [range, setRange] = useState<Range>("0 - 5");

@@ -29,7 +29,7 @@ export const parkingGarageLatitudes: CoordinateConverter = {
   "Volunteer Boulevard (G16)": 35.951209287591126,
   "Volunteer Hall (G15)": 35.95892034378138,
   "White Avenue (G12)": 35.95797921826765,
-};
+} as const;
 
 export const parkingGarageLongitudes: CoordinateConverter = {
   "11th Street (G13)": -83.92529528555826,
@@ -38,7 +38,7 @@ export const parkingGarageLongitudes: CoordinateConverter = {
   "Volunteer Boulevard (G16)": -83.92979662787423,
   "Volunteer Hall (G15)": -83.92984735786756,
   "White Avenue (G12)": -83.93197406178757,
-};
+} as const;
 
 export type Report = {
   id: string;
