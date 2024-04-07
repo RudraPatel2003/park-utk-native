@@ -64,7 +64,7 @@ export default function FindParkingMap() {
               longitude: parkingGarageLongitudes[report.parking_garage],
             }}
             title={report.parking_garage}
-            description={report.reported_range}
+            description={report.reported_range + " spots available"}
           />
         ))}
       </MapView>
