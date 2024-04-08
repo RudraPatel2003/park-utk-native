@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h2 align="center">A React Native app built with <a href="https://expo.dev/" target="_blank" rel="noreferrer">Expo</a> that helps you find parking.</h2>
+<h2 align="center">A React Native app built with <a href="https://expo.dev/" target="_blank" rel="noreferrer">Expo</a> that helps you find parking. Check out the <a href="https://github.com/RudraPatel2003/park-utk-native-api" target="_blank" rel="noreferrer">cloud-hosted backend</a>!</h2>
 
 <p align="center">
   <img src="./assets/FindParking.PNG" width="25%" height="25%" alt="Find Parking Screen">
